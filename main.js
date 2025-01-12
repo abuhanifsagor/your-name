@@ -25,3 +25,10 @@ toggleSound.textContent = "🔈 "; // Update button text
 }
 });
 });
+// Wait for all resources to load
+window.addEventListener("load", function () {
+  // Hide preloader
+  const preloader = document.getElementById("preloader");
+  preloader.style.display = "none";
+
+});
